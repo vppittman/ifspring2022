@@ -1,0 +1,56 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 40px;
+    background-color: rgba(128, 255, 0, 0.447);
+}
+
+h1{
+    margin-bottom: 40px;
+    margin-top:60px;
+    text-align:center;
+    color:rgb(65, 103, 27);
+    font-family:Impact;
+    font-size: 50px;
+}
+
+.lines{
+    margin-left:130px;
+    margin-right:60px;
+    font-family:arial;
+    line-height:24px;
+    
+    
+}
+
+.name{
+    font-family:Bold;
+}
+
+.italic{
+    margin-left:130px;
+    margin-right:60px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+.scene{
+    margin:50px auto 40px 100px;
+    font-family: 'Arial Bold', sans-serif;
+    font-size: 18px;
+    color:rgba(157, 20, 20, 0.858);
+}
+.endscene{
+    margin:70px auto 70px auto;
+    text-align:center;
+    font-family: 'Arial Bold', sans-serif;
+    color:rgba(157, 20, 20, 0.858);
+}
+
+.endimage{
+    max-width:70%;
+    margin:0px 150px 0px 150px;
+}
