@@ -1,0 +1,96 @@
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size:21px;
+    margin-left:100px;
+    background-color:rgb(33, 157, 103);
+}
+
+h1{
+    padding:3%;
+    font-size:40px;
+}
+.labela{
+    font-size:25px;
+    padding:30px 0 10px 0;
+    margin-left:40px;
+    color:rgb(164, 249, 255);
+}
+
+.labelb{
+    font-size:20px;
+    margin-bottom:15px;
+    margin-left:45px;
+    color:rgb(255, 154, 111);
+    text-decoration: underline;
+}
+
+.start{
+    text-align:right;
+    margin-right:10%;
+    color:rgb(164, 249, 255);
+}
+.startt{
+    font-size:28px;
+    text-align:right;
+    margin-right:10%;
+    color:rgb(164, 249, 255);
+}
+.starttt{
+    font-size:38px;
+    text-align:right;
+    margin-right:10%;
+    color:rgb(164, 249, 255);
+}
+
+p{
+    margin-bottom:30px;
+    margin-left:90px;
+}
+
+section{
+    color:snow;
+}
+
+.weight{
+    font-weight:bold;
+}
+.weightt{
+    font-weight:800;
+}
+.weighttt{
+    font-weight:lighter;
+}
+
+.style{
+    font-style:italic;
+}
+.stylee{
+    font-style:oblique;
+}
+
+.lesp{
+    letter-spacing:3px;
+}
+.lespp{
+    letter-spacing:-1px;
+}
+
+.text{
+    text-transform:uppercase;
+}
+.textt{
+    text-transform:lowercase;
+}
+
+.dec{
+    text-decoration:overline;
+}
+.decc{
+    text-decoration:line-through;
+}
+.deccc{
+    text-decoration:underline;
+}
+.decccc{
+    text-decoration:underline overline;
+}
