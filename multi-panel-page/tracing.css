@@ -1,0 +1,123 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+h1{
+    text-align:center;
+    font-size: 40px;
+    margin-bottom:32px;
+}
+
+header h1{
+    font-size: 80px;
+    color:white;
+    margin-bottom: 0;
+}
+
+h3{
+    text-align:center;
+    font-size:40px;
+    margin-top:7px;
+    margin-bottom:33px;
+}
+
+header h2{
+    font-size:30px;
+    line-height:1.1;
+    color:white;
+}
+
+.contents{
+    background-color: rgba(225, 232, 100, 0.208);
+    width:960px;
+    margin:auto;
+    padding:42px 0 20px 0;
+}
+
+header .contents{
+    padding:152px 0 186px 0;
+    background-image:url(carle.jpg);
+    width:100%;
+    background-position: center 15%;
+}
+
+header{
+    background-color: rgba(123, 97, 185, 0.5);
+    text-align: center;
+    background-size:cover;
+    background-position: center;
+}
+
+.aw{
+    float:right;
+    border:1px solid pink;
+}
+
+.secone p{
+    font-size:18px;
+    margin-bottom:18px;
+    line-height:25px;
+}
+
+.secone, .contents{
+    padding-top:17px;
+    padding-bottom:18px;
+}
+
+.sectwotitle{
+    padding-top:18px;
+}
+
+.grid{
+    list-style-type: none;
+    padding-left:0;
+}
+
+.captions{
+    float:right;
+}
+
+div .contents{
+    padding-bottom:2px;
+}
+
+.grid ul{
+    padding:0 16px 0 16px;
+    
+}
+
+li{
+    width:200px;
+    margin-right:100px;
+}
+
+.grid li{
+    padding-bottom:20px;
+}
+
+.imagesectwo{
+    float:right;
+    display:inline;
+}
+
+.captiontitle{
+    float:right;
+}
+
+.grid ::after{
+    content:"";
+    display:block;
+    clear:both;
+
+}
+
+
+
+/* section{
+    background-color:rgba(124, 244, 124, 0.345);
+} 
+
