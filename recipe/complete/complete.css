@@ -1,0 +1,219 @@
+/* CONTENT */
+
+.content img{
+    max-width:100%;
+}
+
+.content{
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    max-width: 60rem;
+}
+
+/* HEADER */
+header{
+    padding:none;
+    margin-top:none;
+    background-image:url(images/tomato-header.png);
+    background-size:cover;
+    background-position:center;
+    padding-top:170px;
+}
+
+
+    
+
+header h1{
+        font-family: 'Eczar', serif;
+        font-weight:800;
+        line-height:1.2;
+        font-size: 7vw;
+        color:rgba(245, 245, 245, 0.92);
+        margin-left:4vw;
+        margin-top:0;
+        letter-spacing:.1vw;
+    }
+
+h1 .caper{
+        color:rgba(93, 224, 60, 0.961);
+
+        font-weight: 700;
+    }
+
+/* PREP INFO */
+.prep-info{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:600;
+    font-size:20px;
+    margin-left:3vw;
+    margin-right:auto;
+
+}
+  .prep-info{margin-right:auto;}
+    
+    @media (min-width:522px)
+    {
+         .prep-info{margin-right:20px;}
+    }
+    
+/* TOP TOMATOES */
+.top-tomatoes li{
+    list-style-type: none;
+    display:inline-block;
+}
+.top-tomatoes li{ 
+    margin-left:2vw;
+    margin-right:2vw;
+}
+.top-tomatoes img{
+    padding:0;
+    width: 130px;
+}
+    .top-tomatoes li{display:inline-block;}
+        
+        @media (max-width:798px)
+        {
+            .top-tomatoes li{display:contents;}
+        }
+
+/* INTRODUCTION */
+.introduction{
+    font-family: 'Titillium Web', sans-serif;
+    line-height:1.5;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+}
+.introduction{margin-right:auto; margin-left:auto;}
+        
+    @media (max-width:1390px)
+        {
+            .introduction{margin-left:70px; margin-right:50px;}
+        }
+
+/* DESCRIPTION */
+.description{
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    font-weight:400;
+    line-height:25px;
+    margin-left:15vw;
+    width:50%; 
+}
+.description{margin-right:auto;}
+    @media (max-width:600px)
+    {
+        .description{text-align: center; margin:auto;}
+    }
+
+/* PANZANELLA BOWL */
+.panzanella-bowl{
+    margin:none;
+    width:40%;
+    float:right;
+    display:inline;
+}
+.panzanella-bowl{width:40%;}
+
+    @media (min-width:1100)
+    {
+        .panzanella-bowl{width:20%;}
+    }
+
+/* INGREDIENTS*/
+.ingredients h2{
+    font-family: 'Eczar', serif;    
+    font-weight:900;
+    font-size:80px;
+    color:rgb(233, 156, 24);
+}
+.ingredients ul{
+    line-height:35px;
+}
+.ingredients li{
+    list-style-type:square;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* DIRECTIONS */
+.directions{
+    font-family: 'Titillium Web', sans-serif;
+}
+    .directions img{
+        float:right;
+        /* display:inline; */
+        width: 9vw;
+        padding-bottom:10vw;
+    }
+    .directions h2{
+        font-family: 'Eczar', serif;    
+        font-weight:900;
+        font-size:80px;
+        color:rgb(192, 54, 3);
+    }
+    .directions ul{
+        line-height:31px;
+        margin-right:10vw;
+    }
+    .directions li{
+        list-style-type:square;
+        padding-bottom:15px;
+    }
+
+/* FOOTER */
+footer{
+    text-align: center;
+}
+footer h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:700;
+    font-size:30px;
+    margin-bottom:80px; 
+    margin-left:10vw;
+    text-align:left;
+}
+footer .recipe-source{
+    color:rgb(192, 54, 3);
+} 
+
+.pairings-grid li{
+    display:inline-block;
+    width:280px;
+    list-style-type: none;
+    margin-left:auto;
+    margin-right:auto;
+}
+.pairings-grid img{
+    max-width:100%;
+}
+.pairings-grid .middle-rec{
+    margin-left:4vw;
+    margin-right:4vw;
+}
+.pairings-grid h4{
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color:rgb(192, 54, 3);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.pairings-grid h5{
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    margin-top:0;
+}
+    .pairings-grid li{display:inline-block;}
+        
+        @media (max-width:985px)
+        {
+            .pairings-grid li{display:block;}
+        }
+    .pairings-grid li{margin-left:auto; margin-right:auto;}
+        
+        @media (max-width:985px)
+        {
+            .pairings-grid li{margin-left:35px; margin-right:auto;}
+        }
