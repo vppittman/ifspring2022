@@ -8,36 +8,68 @@
     margin-left:auto;
     margin-right:auto;
     width:90%;
-    max-width: 60rem;
 }
 
 /* HEADER */
 header{
-    padding:none;
-    margin-top:none;
+    /* padding:0px;
+    margin-top:0px; */
     background-image:url(images/tomato-header.png);
     background-size:cover;
     background-position:center;
     padding-top:170px;
 }
-
-
-    
-
+    /* header{padding-top:170px;}
+        @media (max-width:908px)
+        {
+            header{padding-top:0px;}
+        } */
+    header{background-position:cover;}
+        @media (max-width:908px)
+        {
+            header{background-position:contain;}
+        }
+    header{padding-top:170px;}
+        @media (max-width:785px)
+        {
+            header{padding-top:30px;}
+        }
 header h1{
         font-family: 'Eczar', serif;
         font-weight:800;
         line-height:1.2;
         font-size: 7vw;
-        color:rgba(245, 245, 245, 0.92);
+        color:rgb(245, 245, 245);
         margin-left:4vw;
+        padding-right: 20px;
         margin-top:0;
+        margin-bottom:60px;
         letter-spacing:.1vw;
+        padding-bottom:50px;
+    }
+    header h1{font-size: 7vw;}
+    @media (max-width:600px)
+    {
+        header h1{font-size:37px;}
+    }
+    header h1{padding-bottom:50px;}
+    @media (max-width:785px)
+    {
+        header h1{padding-bottom:auto;}
+    }
+    header h1{padding-top:50px;}
+    @media (max-width:785px)
+    {
+        header h1{padding-top:80px;}
+    }
+    header h1{margin-bottom:60px;}
+    @media (max-width:785px)
+    {
+        header h1{margin-bottom:10px;}
     }
 
 h1 .caper{
-        color:rgba(93, 224, 60, 0.961);
-
+        color:rgba(93, 224, 60, 0.906);
         font-weight: 700;
     }
 
@@ -45,19 +77,38 @@ h1 .caper{
 .prep-info{
     font-family: 'Titillium Web', sans-serif;
     font-weight:600;
-    font-size:20px;
-    margin-left:3vw;
+    font-size:30px;
+    margin-left:150px;
     margin-right:auto;
-
+    display:inline-block;
 }
-  .prep-info{margin-right:auto;}
-    
-    @media (min-width:522px)
+    .prep-info{margin-left:150px;}
+            
+    @media (max-width:740px)
     {
-         .prep-info{margin-right:20px;}
+        .prep-info{margin-left:20px;}
     }
-    
-/* TOP TOMATOES */
+    .prep-info{margin-right:auto;}
+            
+    @media (max-width:740px)
+    {
+        .prep-info{margin-right:50px;}
+    }
+    .prep-info{margin-bottom:auto;}
+            
+    @media (max-width:1300px)
+    {
+        .prep-info{margin-bottom:10px;}
+    }
+    .prep-info{margin-right:auto;}
+    .prep-info{font-size:30px;}
+            
+    @media (max-width:1100px)
+    {
+        .prep-info{font-size:20px;}
+    }
+        
+/* √ TOP TOMATOES */
 .top-tomatoes li{
     list-style-type: none;
     display:inline-block;
@@ -76,21 +127,13 @@ h1 .caper{
         {
             .top-tomatoes li{display:contents;}
         }
-
-/* INTRODUCTION */
-.introduction{
-    font-family: 'Titillium Web', sans-serif;
-    line-height:1.5;
-    margin-left:auto;
-    margin-right:auto;
-    width:60%;
-}
-.introduction{margin-right:auto; margin-left:auto;}
+    .top-tomatoess .leaf{margin-right:auto;}
         
-    @media (max-width:1390px)
+        @media (max-width:797px)
         {
-            .introduction{margin-left:70px; margin-right:50px;}
+            .top-tomatoes li{margin-right:100px;}
         }
+
 
 /* DESCRIPTION */
 .description{
@@ -98,42 +141,95 @@ h1 .caper{
     font-style: italic;
     font-weight:400;
     line-height:25px;
-    margin-left:15vw;
+    margin-left:150px;
     width:50%; 
 }
-.description{margin-right:auto;}
-    @media (max-width:600px)
+.description{width:50%;}
+    @media (max-width:875px)
     {
-        .description{text-align: center; margin:auto;}
+        .description{width:80%;}
+    }
+.description{margin-left:150px;}
+    @media (max-width:875px)
+    {
+        .description{margin-left:50px;}
     }
 
+/* INTRODUCTION */
+.introduction{
+    font-family: 'Titillium Web', sans-serif;
+    text-indent:20px;
+    line-height:1.5; 
+    margin-left:150px; 
+    /* margin-right:15vw;  */
+}
+.introduction{width:50%;}
+    @media (max-width:875px)
+    {
+        .introduction{width:80%;}
+    }
+.introduction{margin-left:150px;}
+    @media (max-width:875px)
+    {
+        .introduction{margin-left:50px;}
+    }
+
+/* DIRECTIONS + INGREDIENTS MOBILE HEADER– DECREASE TXT SIZE */
+.ingredients h2{font-size:80px;}
+    
+    @media (min-width:620px)
+    {
+        .ingredients h2, .directions h2{font-size:30px;}
+    }
+.directions h2{font-size:80px;}
+    
+    @media (min-width:620px)
+    {
+        .ingredients h2, .directions h2{font-size:30px;}
+    }
 /* PANZANELLA BOWL */
 .panzanella-bowl{
-    margin:none;
-    width:40%;
     float:right;
     display:inline;
+    max-width:50%;
+    height:auto;
+    padding-bottom:30px;
+    padding-left:20px;
 }
-.panzanella-bowl{width:40%;}
+.panzanella-bowl{max-width:50%;}
 
-    @media (min-width:1100)
+    @media (max-width:790px)
     {
-        .panzanella-bowl{width:20%;}
+        .panzanella-bowl{max-width:80%;}
     }
 
 /* INGREDIENTS*/
 .ingredients h2{
     font-family: 'Eczar', serif;    
     font-weight:900;
-    font-size:80px;
+    font-size:10vw;
     color:rgb(233, 156, 24);
 }
+.ingredients h2{padding-top:auto;}
+
+    @media (max-width:790px)
+    {
+        .ingredients h2{padding-top:20px;}
+    }
+.ingredients h2{font-size:10vw;}
+
+    @media (max-width:790px)
+    {
+        .ingredients h2{font-size:60px;}
+    }
 .ingredients ul{
     line-height:35px;
+    padding-right:20px;
 }
 .ingredients li{
     list-style-type:square;
     font-family: 'Titillium Web', sans-serif;
+   
 }
 
 /* DIRECTIONS */
@@ -149,12 +245,24 @@ h1 .caper{
     .directions h2{
         font-family: 'Eczar', serif;    
         font-weight:900;
-        font-size:80px;
+        font-size:10vw;
         color:rgb(192, 54, 3);
+    }
+.directions h2{padding-top:auto;}
+
+    @media (max-width:790px)
+    {
+        .directions h2{padding-top:20px;}
+    }
+.directions h2{font-size:10vw;}
+
+    @media (max-width:790px)
+    {
+        .directions h2{font-size:60px;}
     }
     .directions ul{
         line-height:31px;
-        margin-right:10vw;
+        margin-right:16vw;
     }
     .directions li{
         list-style-type:square;
