@@ -1,0 +1,317 @@
+html{
+    background-size:cover;
+    background-image: url(images/grid-bkgd.jpg);
+    background-blend-mode: lighten;
+}
+
+/* NAV BAR */
+.navbar-home{
+    background-color:rgb(61, 209, 162);
+    position: fixed;
+    top:0;
+    left:0;
+    height:65pt;
+    width:100%;
+    z-index: 9999;
+}
+
+/* LOGO BUTTON */
+#logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 5pt;
+
+    padding-top:6pt;
+}
+    #logo a{
+        text-decoration: none;
+        color:black;
+        float:left;
+    }
+    #logo a:hover{
+        color:whitesmoke;
+    }
+.logo-btn{
+    background-color:rgb(246, 224, 139);
+    width:183pt;
+    margin-left:15pt;
+    height:35pt; 
+}
+    .logo-btn:hover{
+        background-color: rgb(254, 107, 171);
+    }
+    .logo-btn li{
+        list-style: none;
+    }
+    .home-btn{
+        position:relative;
+        top:4pt;
+        bottom:40pt;
+        left:-9pt;
+        float:right;
+    }
+
+/* MARKUP NAV BAR MENU */
+.markup-navbar li{
+    list-style: none;
+    display:inline;
+    position:relative;
+        left:300px;
+        top:-50px;
+    padding-right:3vw;
+}
+
+.markup-navbar a{
+    text-decoration: none;
+    color:rgb(251, 237, 132);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.markup-navbar a:hover{
+    background-color:rgba(4, 50, 255, 0.516);
+    box-shadow: 1px 1px 17px 12px rgba(2,218,218,0.75);
+    -webkit-box-shadow: 1px 1px 17px 12px rgba(2,218,218,0.75);
+    -moz-box-shadow: 1px 1px 17px 12px rgba(2,218,218,0.75);
+}
+.markup-navbar a{font-size: 22px;}
+    @media (max-width:1180px)
+        {
+            .markup-navbar a{font-size: 18px;}
+        }
+.markup-navbar{display: inline;}
+    @media (max-width:1012px)
+        {
+            .markup-navbar{display:none;}
+        }
+
+/* TITLE */
+header h1{
+    font-family: 'Righteous', cursive;
+    font-size:50pt;
+    letter-spacing: 3pt;
+    color:rgb(118, 82, 248);
+
+    margin-left:120px;
+    padding-top: 100pt;
+    padding-bottom:none;
+    margin-bottom:0;
+    padding-bottom:40pt;
+}
+
+header h2{
+    font-family: 'Rubik', sans-serif;
+    color:rgb(75, 43, 162);
+    font-size: 22pt;
+    padding-left:100pt;
+    padding-top:15pt;
+}
+/* CONTENT */
+.content{
+    padding-bottom:20pt;
+    margin-left:100pt;
+    font-family: 'Inter', sans-serif;
+    width:40%;
+    line-height: 20pt;
+    font-size: 14pt;
+    text-shadow: 0px 0px 20px rgba(250, 113, 234, 0.647);
+}
+
+   .content{padding-bottom:20pt;
+    margin-left:100pt; width:40%;}
+    @media (max-width:1000px)
+        {
+            .content{padding-bottom:20pt;
+                margin-left:15%; margin-right:15%; width:70%;}
+        }
+
+    /* .content div:last-child{
+        padding-bottom:60px;
+    } */
+
+/* IMAGES */
+/* .about-img{
+    width:30%;
+    float:right;
+    margin-right:200pt;
+    position:relative;
+        top:0pt;
+
+    margin-left:40pt;
+} */
+    /* .about-img{position:relative;}
+        @media (max-width:1250px)
+        {
+            .about-img{display:inline-block;}
+        }
+    }  */
+figure{
+    width:30%;
+    float:right;
+    position:relative;
+        top:0pt;
+    margin-left:40pt;
+}  
+    figure img{
+        width:100%;
+    }
+    figcaption{
+        text-align: center;
+        font-family: sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        padding-top:1vw;
+    }
+        figure{display:auto;}
+        @media (max-width:1000px)
+            {
+                figure{display:none;}
+            }
+.vc1-mobile{
+    display: none;
+}
+    .vc1-mobile img{
+        width:50%;
+        margin-left:10%;
+        padding-top:20px;
+        padding-bottom: 30px;
+    }
+        .vc1-mobile{display:none;}
+        @media (max-width:1000px)
+            {
+                .vc1-mobile{display:inline; float:none;}
+            }
+
+.hach-img{
+    width:30%;
+    float:right;
+    margin-left:0;
+    position:relative;
+        right:20vw;
+}
+.haxa{
+    border-radius: 23px;
+    border-color: black;
+    box-shadow: 16px 10px 21px #ff00f27a;
+}
+
+/* CAPTIONS */
+.caption{
+    font-family:sans-serif;
+    font-style: italic;
+}
+
+/* VOCALOIDS GRID */
+.vocaloid-grid{
+    margin-left:5%;
+    margin-right:5%;
+}
+.vocaloid-grid li{
+    display:inline-block;
+    width:25%;
+    list-style: none;
+    text-align:left;
+    text-indent: 15px;
+    padding-right:20px;
+    margin: 10pt 10pt 10pt 10pt;
+}
+.vocaloid-grid li{width:25%;}
+    @media (max-width:1200px)
+    {
+        .vocaloid-grid li{width:30%; display:inline;}
+    } 
+
+    .vocaloid-grid h3{
+        font-family: 'Righteous', cursive;
+        font-size: 20pt;
+        text-align: center;
+        color:rgb(0, 0, 0);
+        box-shadow: 4px 4px 10px #f68cf07a;
+        letter-spacing: 2pt;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width:60%;
+    }
+    /* .vocaloid-grid h3{font-size: 20pt;}
+        @media (max-width:1390px)
+        {
+            .vocaloid-grid h3{font-size:2vw;}
+        } */
+
+    .vocaloid-grid img{
+        border-radius: 15px;
+        border-color: rgba(0, 128, 128, 0.397);
+        border-style:double;
+        display:flex;
+        flex-wrap: wrap;
+        width:60%;
+    }
+
+/* HATSUNE MIKU PAGE */
+.hatsune-title{
+    color:rgb(224, 64, 187);
+}
+
+.hatsune-img{
+    border-radius: 15px;
+    width:30%;
+    float:right;
+    margin-right:200pt;
+    position:relative;
+        top:0pt;
+}
+
+
+/* CREATORS PAGE */
+.big-a{
+    width:50%;
+    float:right;
+}
+/* .e-tunes{
+    width:20%;
+    float: right;
+} */
+
+/* FOOTER */
+footer{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    background-color: rgb(61, 209, 162);
+    width:100%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    position:static;
+}
+    .footer-grid{
+        display:flex;
+    }
+    footer .footer-grid{
+        list-style-type: none;
+        /* margin-left:20%;
+        margin-right:50%; */
+    }
+        footer li{
+            padding-right:4vw;
+            text-align: center;
+        }
+    footer a{
+        color:blanchedalmond;
+        padding-right:20pt;
+        /* text-decoration: none; */
+    }
+    
+    footer .footer-grid{margin-left:20%;}
+        @media (max-width:1000px)
+        {
+            footer .footer-grid{margin-left:0%}
+        }
+    footer{font-size: 30px;}
+        @media (max-width:1000px)
+        {
+            footer{font-size: 20px;}
+        }
+    .footer-grid{display:flex;}
+        @media (max-width:607px)
+        {
+            .footer-grid{display:block; line-height: 28px;}
+        }
